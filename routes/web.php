@@ -54,5 +54,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/hearing-form3', function () {
         return view('phase3_form');
     })->name('hearing.form3');
+
+    // Add more protected routes as needed
+    // SAMPLE BRANCHES
 });
 
